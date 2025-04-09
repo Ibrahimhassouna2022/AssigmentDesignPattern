@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="431.0" prefWidth="438.0" style="-fx-background-color: #2f8373;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="homworkappgui.LoginController">
+   <children>
+      <Button layoutX="138.0" layoutY="87.0" mnemonicParsing="false" onAction="#dashBoardStudent" prefHeight="54.0" prefWidth="184.0" style="-fx-background-color: #3e5fa1;" text="DashBoard Studemt" textFill="#e6e7e8">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="145.0" layoutY="170.0" mnemonicParsing="false" onAction="#dashBoardCource" prefHeight="54.0" prefWidth="177.0" style="-fx-background-color: #3e5fa1;" text="DashBoard SCource" textFill="#e6e7e8">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="145.0" layoutY="242.0" mnemonicParsing="false" onAction="#dashBoardRegister" prefHeight="54.0" prefWidth="177.0" style="-fx-background-color: #3e5fa1;" text="registrations  Student" textFill="#e6e7e8">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
